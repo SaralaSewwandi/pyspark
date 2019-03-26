@@ -1,0 +1,2 @@
+import sparkSession.implicits._
+val data = sparkSession.read.text("src/main/resources/data.txt").as[String]
